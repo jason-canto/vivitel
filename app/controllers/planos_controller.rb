@@ -1,6 +1,6 @@
 class PlanosController < ApplicationController
 
-  def promo	
+  def home	
   end
 
 end

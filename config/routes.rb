@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'welcome#index'
-  
+  root 'planos#home'
+  get "/home" => "planos#home" 
+
 end
